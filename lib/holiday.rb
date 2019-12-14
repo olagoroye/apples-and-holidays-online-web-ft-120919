@@ -61,7 +61,6 @@ array = holiday_hash[:winter].map do |holiday, items|
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
@@ -70,6 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |holiday, item|
  if holiday == "Christmas"
+   holiday_hash.each do
    
    
 end
