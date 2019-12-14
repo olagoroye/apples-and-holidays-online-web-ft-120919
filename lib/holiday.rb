@@ -69,7 +69,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |holiday, item|
  if holiday == "Christmas"
-   item.each do ||
+   item.each do |attribute, supplies|
+     if attribue ==
    
    
 end
