@@ -43,12 +43,12 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 # holiday_supplies[:spring][:memorial_day][2] = "Table Cloth"
 # return holiday_supplies
 holiday_hash[season][holiday_name] = supply_array
-  holiday_hash
+  return holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-holiday_dash.flatten
+holiday_hash.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
